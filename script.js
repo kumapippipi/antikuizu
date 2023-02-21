@@ -15,7 +15,7 @@ choices.forEach((choice) => {
                 img1.src = './antiA.png';
                 explanation.appendChild(img1);
                 const p1 = document.createElement('p');
-                p1.textContent = '↑  地点A：ブルータルとロンリー・ラボに少なくとも１パーティーずつ降りてるとするとこの安置では大体の人が安置に最短距離の直線で行き、安置に入ったところで接敵し先頭になることが多い！';
+                p1.textContent = '↑  地点A：ブルータルとロンリー・ラボに少なくとも１パーティーずつ降りてるとするとこの安置では大体の人が安置に最短距離の直線で行き、安置に入ったところで接敵し戦闘になることが多い！';
                 explanation.appendChild(p1);
                 break;
             case 'choice-2':
