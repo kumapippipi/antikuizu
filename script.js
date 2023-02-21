@@ -92,10 +92,10 @@ choices.forEach((choice) => {
                 choice.classList.add(incorrectClass);
                 result.textContent = '不正解！理由は👇';
                 const img9 = document.createElement('img');
-                img8.src = 'antiyosou/antiI.png';
+                img9.src = 'antiyosou/antiI.png';
                 explanation.appendChild(img9);
                 const p9 = document.createElement('p');
-                p8.textContent = '↑  地点Iの説明をここに記述します。';
+                p9.textContent = '↑  地点Iの説明をここに記述します。';
                 explanation.appendChild(p9);
                 break;
             default:
