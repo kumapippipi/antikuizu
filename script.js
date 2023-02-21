@@ -12,7 +12,7 @@ choices.forEach((choice) => {
                 choice.classList.add(correctClass);
                 result.textContent = '正解！理由は👇';
                 const img1 = document.createElement('img');
-                img1.src = "./antiA.png";
+                img1.src = "antiyosou/antiA.png";
                 explanation.appendChild(img1);
                 const p1 = document.createElement('p');
                 p1.textContent = '↑  地点Aの説明をここに記述します。';
