@@ -22,7 +22,7 @@ choices.forEach((choice) => {
                 choice.classList.add(correctClass);
                 result.textContent = '正解！理由は👇';
                 const img2 = document.createElement('img');
-                img2.src = './antiB.png';
+                img2.src = 'antiyosou/antiB.png';
                 explanation.appendChild(img2);
                 const p2 = document.createElement('p');
                 p2.textContent = '↑  地点Bの説明をここに記述します。';
@@ -32,7 +32,7 @@ choices.forEach((choice) => {
                 choice.classList.add(correctClass);
                 result.textContent = '正解！理由は👇';
                 const img3 = document.createElement('img');
-                img3.src = './antiC.png';
+                img3.src = 'antiyosou/antiC.png';
                 explanation.appendChild(img3);
                 const p3 = document.createElement('p');
                 p3.textContent = '↑  地点Cの説明をここに記述します。';
@@ -42,7 +42,7 @@ choices.forEach((choice) => {
                 choice.classList.add(incorrectClass);
                 result.textContent = '不正解！理由は👇';
                 const img4 = document.createElement('img');
-                img4.src = './antiD.png';
+                img4.src = 'antiyosou/antiD.png';
                 explanation.appendChild(img4);
                 const p4 = document.createElement('p');
                 p4.textContent = '↑  地点Dの説明をここに記述します。';
@@ -52,7 +52,7 @@ choices.forEach((choice) => {
                 choice.classList.add(correctClass);
                 result.textContent = '正解！理由は👇';
                 const img5 = document.createElement('img');
-                img5.src = './antiE.png';
+                img5.src = 'antiyosou/antiE.png';
                 explanation.appendChild(img5);
                 const p5 = document.createElement('p');
                 p5.textContent = '↑  地点Eの説明をここに記述します。';
@@ -62,7 +62,7 @@ choices.forEach((choice) => {
                 choice.classList.add(correctClass);
                 result.textContent = '正解！理由は👇';
                 const img6 = document.createElement('img');
-                img6.src = './antiF.png';
+                img6.src = 'antiyosou/antiF.png';
                 explanation.appendChild(img6);
                 const p6 = document.createElement('p');
                 p6.textContent = '↑  地点Fの説明をここに記述';
@@ -72,7 +72,7 @@ choices.forEach((choice) => {
                 choice.classList.add(correctClass);
                 result.textContent = '正解！理由は👇';
                 const img7 = document.createElement('img');
-                img7.src = './antiG.png';
+                img7.src = 'antiyosou/antiG.png';
                 explanation.appendChild(img7);
                 const p7 = document.createElement('p');
                 p7.textContent = '↑  地点Gの説明をここに記述します。';
@@ -82,7 +82,7 @@ choices.forEach((choice) => {
                 choice.classList.add(incorrectClass);
                 result.textContent = '不正解！理由は👇';
                 const img8 = document.createElement('img');
-                img8.src = './antiH.png';
+                img8.src = 'antiyosou/antiH.png';
                 explanation.appendChild(img8);
                 const p8 = document.createElement('p');
                 p8.textContent = '↑  地点Hの説明をここに記述します。';
@@ -92,7 +92,7 @@ choices.forEach((choice) => {
                 choice.classList.add(incorrectClass);
                 result.textContent = '不正解！理由は👇';
                 const img9 = document.createElement('img');
-                img8.src = './antiI.png';
+                img8.src = 'antiyosou/antiI.png';
                 explanation.appendChild(img9);
                 const p9 = document.createElement('p');
                 p8.textContent = '↑  地点Iの説明をここに記述します。';
