@@ -37,12 +37,7 @@ button:hover {
     color: #f00;
 }
 
-body{
-    text-align:center;
+body{     
+    text-align:center;  } 
 
-}
-
-.nextbotan{
-font-size:40px;
-
-}
+.nextbotan{ font-size:40px;  }
