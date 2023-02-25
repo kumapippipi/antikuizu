@@ -39,9 +39,14 @@ button:hover {
 
 .body{
 
-font-size:40px;
+
     display:flex;
     justify-content:center;
 align-items:center;
+
+}
+
+.nextbotan{
+font-size:40px;
 
 }
