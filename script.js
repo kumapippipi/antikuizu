@@ -7,6 +7,12 @@ const incorrectClass = 'incorrect-choice';
 
 choices.forEach((choice) => {
     choice.addEventListener('click', () => {
+         while (result.firstChild) {
+            result.removeChild(result.firstChild);
+        }
+        while (explanation.firstChild) {
+            explanation.removeChild(explanation.firstChild);
+        }
         switch (choice.id) {
             case 'choice-1':
                 choice.classList.add(correctClass);
